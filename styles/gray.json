@@ -1,0 +1,36 @@
+{
+    "title": "Gray",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"color": "#f9f9f9",
+					"name": "Background",
+					"slug": "background"
+				},
+				{
+					"color": "#fff",
+					"name": "Cards Background",
+					"slug": "cards-background"
+				},
+				{
+					"color": "#eee",
+					"name": "Borders",
+					"slug": "borders"
+				},
+				{
+					"color": "#111",
+					"name": "Text",
+					"slug": "text"
+				},
+                {
+					"color": "#777",
+					"name": "Text Light",
+					"slug": "text-light"
+				}
+			]
+		}
+    }
+}
