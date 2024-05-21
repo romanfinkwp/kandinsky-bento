@@ -2,13 +2,13 @@
 <?php
 /**
  * Title: Bento patterns 4
- * Slug: kandinsky/bento-4
+ * Slug: kandinsky-bento/bento-4
  * Categories: kandinsky
  */
 ?>
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"className":"is-style-default"} -->
-<h2 class="wp-block-heading is-style-default">Header</h2>
+<h2 class="wp-block-heading is-style-default"><?php _e('Header','kandinsky-bento'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"className":"bento-responsive"} -->
@@ -23,7 +23,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1"},"spacing":{"margin":{"top":"var:preset|spacing|10"}},"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text","fontSize":"small"} -->
-<p class="has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:500;line-height:1"><?php _e('Type your header here','kandinsky'); ?></p>
+<p class="has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:500;line-height:1"><?php _e('Type your header here','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}},"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1"}},"textColor":"text-light","fontSize":"small"} -->
@@ -34,8 +34,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"60%"} -->
-<div class="wp-block-column" style="flex-basis:60%"><!-- wp:image {"lightbox":{"enabled":false},"id":278,"aspectRatio":"3/2","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"12px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/image-from-rawpixel-id-2968518-jpeg-edited.jpg" alt="" class="wp-image-278" style="border-radius:12px;aspect-ratio:3/2;object-fit:cover"/></figure>
+<div class="wp-block-column" style="flex-basis:60%"><!-- wp:image {"lightbox":{"enabled":false},"aspectRatio":"3/2","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"12px"}}} -->
+<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/image-from-rawpixel-id-2968518-jpeg-edited.jpg" alt="" style="border-radius:12px;aspect-ratio:3/2;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div></div>
@@ -53,7 +53,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1"},"spacing":{"margin":{"top":"var:preset|spacing|10"}},"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text","fontSize":"small"} -->
-<p class="has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:500;line-height:1"><?php _e('Type your header here','kandinsky'); ?></p>
+<p class="has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:500;line-height:1"><?php _e('Type your header here','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}},"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1"}},"textColor":"text-light","fontSize":"small"} -->
@@ -64,8 +64,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"60%"} -->
-<div class="wp-block-column" style="flex-basis:60%"><!-- wp:image {"lightbox":{"enabled":false},"id":278,"aspectRatio":"3/2","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"12px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/image-from-rawpixel-id-2968518-jpeg-edited.jpg" alt="" class="wp-image-278" style="border-radius:12px;aspect-ratio:3/2;object-fit:cover"/></figure>
+<div class="wp-block-column" style="flex-basis:60%"><!-- wp:image {"lightbox":{"enabled":false},"aspectRatio":"3/2","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"12px"}}} -->
+<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/image-from-rawpixel-id-2968518-jpeg-edited.jpg" alt="" style="border-radius:12px;aspect-ratio:3/2;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div></div>
@@ -84,7 +84,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1"},"spacing":{"margin":{"top":"var:preset|spacing|10"}},"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text","fontSize":"small"} -->
-<p class="has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:500;line-height:1"><?php _e('Type your header here','kandinsky'); ?></p>
+<p class="has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:500;line-height:1"><?php _e('Type your header here','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}},"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1"}},"textColor":"text-light","fontSize":"small"} -->
@@ -93,8 +93,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:image {"lightbox":{"enabled":true},"id":278,"aspectRatio":"3/2","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"16px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/image-from-rawpixel-id-2968518-jpeg-edited.jpg" alt="" class="wp-image-278" style="border-radius:16px;aspect-ratio:3/2;object-fit:cover"/></figure>
+<!-- wp:image {"lightbox":{"enabled":true},"aspectRatio":"3/2","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"16px"}}} -->
+<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/image-from-rawpixel-id-2968518-jpeg-edited.jpg" alt="" style="border-radius:16px;aspect-ratio:3/2;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover --></div>
@@ -110,7 +110,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text"} -->
-<p class="has-text-color has-link-color"><?php _e('Type your header here','kandinsky'); ?></p>
+<p class="has-text-color has-link-color"><?php _e('Type your header here','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div></div>
@@ -124,7 +124,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text"} -->
-<p class="has-text-color has-link-color"><?php _e('Type your header here','kandinsky'); ?></p>
+<p class="has-text-color has-link-color"><?php _e('Type your header here','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div></div>
@@ -138,7 +138,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text"} -->
-<p class="has-text-color has-link-color"><?php _e('Type your header here','kandinsky'); ?></p>
+<p class="has-text-color has-link-color"><?php _e('Type your header here','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div></div>
@@ -152,7 +152,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text"} -->
-<p class="has-text-color has-link-color"><?php _e('Type your header here','kandinsky'); ?></p>
+<p class="has-text-color has-link-color"><?php _e('Type your header here','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div></div>

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: 404
- * Slug: kandinsky/404
+ * Slug: kandinsky-bento/404
  * Categories: kandinsky
  */
 ?>
@@ -13,16 +13,16 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":1} -->
-<h1 class="wp-block-heading has-text-align-center">404 not found</h1>
+<h1 class="wp-block-heading has-text-align-center"><?php _e('404 not found','kandinsky-bento'); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"className":"is-style-default","fontSize":"large"} -->
-<p class="has-text-align-center is-style-default has-large-font-size" style="font-style:normal;font-weight:600">"Everything starts from a dot"</p>
+<p class="has-text-align-center is-style-default has-large-font-size" style="font-style:normal;font-weight:600"><?php _e('"Everything starts from a dot"','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}}},"textColor":"text-light"} -->
-<p class="has-text-light-color has-text-color has-link-color">Wassily Kandinsky</p>
+<p class="has-text-light-color has-text-color has-link-color"><?php _e('Wassily Kandinsky','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div></div>

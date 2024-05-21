@@ -1,14 +1,10 @@
 <?php
 /**
  * Title: Starter content
- * Slug: kandinsky/starter-content
+ * Slug: kandinsky-bento/starter-content
  * Categories: kandinsky
  */
 ?>
-
-
-
-
 
 <!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0"},"blockGap":{"left":"var:preset|spacing|40"}}},"className":"bento-main"} -->
@@ -19,24 +15,24 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading">Kandinsky</h1>
+<h1 class="wp-block-heading"><?php _e('Kandinsky','kandinsky-bento'); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} -->
-<p class="has-text-align-left has-large-font-size" style="font-style:normal;font-weight:600">Personal bento based on WordPress</p>
+<p class="has-text-align-left has-large-font-size" style="font-style:normal;font-weight:600"><?php _e('Personal bento based on WordPress','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}}},"textColor":"text-light","fontSize":"large"} -->
-<p class="has-text-light-color has-text-color has-link-color has-large-font-size">✦ Painter and art theorist</p>
+<p class="has-text-light-color has-text-color has-link-color has-large-font-size"><?php _e('✦ Painter and art theorist','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}}},"textColor":"text-light","fontSize":"large"} -->
-<p class="has-text-light-color has-text-color has-link-color has-large-font-size">✦ Pioneer of abstraction art</p>
+<p class="has-text-light-color has-text-color has-link-color has-large-font-size"><?php _e('✦ Pioneer of abstraction art','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}}},"textColor":"text-light","fontSize":"large"} -->
-<p class="has-text-light-color has-text-color has-link-color has-large-font-size">✦ 1866 - 1944</p>
+<p class="has-text-light-color has-text-color has-link-color has-large-font-size"><?php _e('✦ 1866 - 1944','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -46,7 +42,7 @@
 <div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--40);flex-basis:820px"><!-- wp:columns {"className":"bento-responsive"} -->
 <div class="wp-block-columns bento-responsive"><!-- wp:column {"width":""} -->
 <div class="wp-block-column"><!-- wp:image {"lightbox":{"enabled":true},"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/image-from-rawpixel-id-8627596-jpeg.jpg" alt="" style="aspect-ratio:1;object-fit:cover"/><figcaption class="wp-element-caption">Yellow-Red-Blue</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/image-from-rawpixel-id-8627596-jpeg.jpg" alt="" style="aspect-ratio:1;object-fit:cover"/><figcaption class="wp-element-caption"><?php _e('Yellow-Red-Blue','kandinsky-bento'); ?></figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -62,11 +58,11 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1"},"spacing":{"margin":{"top":"0px","bottom":"2px"}},"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text","fontSize":"small"} -->
-<p class="has-text-color has-link-color has-small-font-size" style="margin-top:0px;margin-bottom:2px;font-style:normal;font-weight:500;line-height:1">Instagram</p>
+<p class="has-text-color has-link-color has-small-font-size" style="margin-top:0px;margin-bottom:2px;font-style:normal;font-weight:500;line-height:1"><?php _e('Instagram','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}},"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1"}},"textColor":"text-light","fontSize":"small"} -->
-<p class="has-text-light-color has-text-color has-link-color has-small-font-size" style="margin-top:0;margin-bottom:0;line-height:1">@kandinsky</p>
+<p class="has-text-light-color has-text-color has-link-color has-small-font-size" style="margin-top:0;margin-bottom:0;line-height:1"><?php _e('@kandinsky','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -74,7 +70,7 @@
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"0px"}}}} -->
 <div class="wp-block-buttons" style="margin-top:0px"><!-- wp:button {"width":100,"style":{"spacing":{"padding":{"top":"6px","bottom":"6px"}}},"fontSize":"small"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button" style="padding-top:6px;padding-bottom:6px">Follow</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button" style="padding-top:6px;padding-bottom:6px"><?php _e('Follow','kandinsky-bento'); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -119,7 +115,7 @@
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"className":"is-style-default"} -->
-<h2 class="wp-block-heading is-style-default">Let's connect!</h2>
+<h2 class="wp-block-heading is-style-default"><?php _e("Let's connect!",'kandinsky-bento'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"className":"bento-responsive"} -->
@@ -134,13 +130,13 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1"},"spacing":{"margin":{"top":"var:preset|spacing|10"}},"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text","fontSize":"small"} -->
-<p class="has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:500;line-height:1">Dribble</p>
+<p class="has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:500;line-height:1"><?php _e('Dribble','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"0px"}}}} -->
 <div class="wp-block-buttons" style="margin-top:0px"><!-- wp:button {"style":{"spacing":{"padding":{"top":"6px","bottom":"6px"}},"color":{"background":"#fe68ba"}},"fontSize":"small"} -->
-<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link has-background wp-element-button" style="background-color:#fe68ba;padding-top:6px;padding-bottom:6px">Follow</a></div>
+<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link has-background wp-element-button" style="background-color:#fe68ba;padding-top:6px;padding-bottom:6px"><?php _e('Follow','kandinsky-bento'); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -192,17 +188,17 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1"},"spacing":{"margin":{"top":"6px"}},"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text","fontSize":"small"} -->
-<p class="has-text-color has-link-color has-small-font-size" style="margin-top:6px;font-style:normal;font-weight:500;line-height:1">X</p>
+<p class="has-text-color has-link-color has-small-font-size" style="margin-top:6px;font-style:normal;font-weight:500;line-height:1"><?php _e('X','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}},"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1"}},"textColor":"text-light","fontSize":"small"} -->
-<p class="has-text-light-color has-text-color has-link-color has-small-font-size" style="margin-top:0;margin-bottom:0;line-height:1">@kandinsky</p>
+<p class="has-text-light-color has-text-color has-link-color has-small-font-size" style="margin-top:0;margin-bottom:0;line-height:1"><?php _e('@kandinsky','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"20px"}}}} -->
 <div class="wp-block-buttons" style="margin-top:20px"><!-- wp:button {"width":100,"style":{"spacing":{"padding":{"top":"6px","bottom":"6px"}}},"fontSize":"small"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button" style="padding-top:6px;padding-bottom:6px">Follow</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button" style="padding-top:6px;padding-bottom:6px"><?php _e('Follow','kandinsky-bento'); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div></div>
@@ -219,7 +215,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text"} -->
-<p class="has-text-color has-link-color">LinkedIn</p>
+<p class="has-text-color has-link-color"><?php _e('LinkedIn','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div></div>
@@ -233,7 +229,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text"} -->
-<p class="has-text-color has-link-color">Facebook</p>
+<p class="has-text-color has-link-color"><?php _e('Facebook','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div></div>
@@ -247,7 +243,7 @@
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"className":"is-style-default"} -->
-<h2 class="wp-block-heading is-style-default">Highlights</h2>
+<h2 class="wp-block-heading is-style-default"><?php _e('Highlights','kandinsky-bento'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}}} -->
@@ -283,7 +279,7 @@
 
 <!-- wp:column {"width":""} -->
 <div class="wp-block-column"><!-- wp:image {"lightbox":{"enabled":true},"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/image-from-rawpixel-id-8314328-jpeg.jpg" alt="" style="aspect-ratio:1;object-fit:cover"/><figcaption class="wp-element-caption">Riding couple</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/image-from-rawpixel-id-8314328-jpeg.jpg" alt="" style="aspect-ratio:1;object-fit:cover"/><figcaption class="wp-element-caption"><?php _e('Riding couple','kandinsky-bento'); ?></figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -291,7 +287,7 @@
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"className":"is-style-default"} -->
-<h2 class="wp-block-heading is-style-default">Reading</h2>
+<h2 class="wp-block-heading is-style-default"><?php _e('Reading','kandinsky-bento'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"className":"bento-responsive"} -->
@@ -306,7 +302,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1"},"spacing":{"margin":{"top":"var:preset|spacing|10"}},"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text","fontSize":"small"} -->
-<p class="has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:500;line-height:1">Yellow-Red-Blue abstract painting</p>
+<p class="has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:500;line-height:1"><?php _e('Yellow-Red-Blue abstract painting','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}},"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1"}},"textColor":"text-light","fontSize":"small"} -->
@@ -336,7 +332,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1"},"spacing":{"margin":{"top":"var:preset|spacing|10"}},"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text","fontSize":"small"} -->
-<p class="has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:500;line-height:1">Improvisation</p>
+<p class="has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:500;line-height:1"><?php _e('Improvisation','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}},"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1"}},"textColor":"text-light","fontSize":"small"} -->
@@ -367,8 +363,8 @@
 <div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:cover {"overlayColor":"cards-background","isUserOverlayColor":true,"isDark":false,"style":{"dimensions":{"aspectRatio":"1"},"spacing":{"padding":{"top":"0","bottom":"0","left":"var:preset|spacing|10","right":"var:preset|spacing|10"}}}} -->
 <div class="wp-block-cover is-light" style="padding-top:0;padding-right:var(--wp--preset--spacing--10);padding-bottom:0;padding-left:var(--wp--preset--spacing--10)"><span aria-hidden="true" class="wp-block-cover__background has-cards-background-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:quote {"align":"center","style":{"spacing":{"blockGap":"var:preset|spacing|10"},"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}}},"textColor":"text-light"} -->
 <blockquote class="wp-block-quote has-text-align-center has-text-light-color has-text-color has-link-color"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text"} -->
-<p class="has-text-align-center has-text-color has-link-color">For love, a certain naivety is necessary. You have it. Keep it. It is a gift from God. Once lost, it can never be regained.</p>
-<!-- /wp:paragraph --><cite>Erich Maria Remarque</cite></blockquote>
+<p class="has-text-align-center has-text-color has-link-color"><?php _e('For love, a certain naivety is necessary. You have it. Keep it. It is a gift from God. Once lost, it can never be regained.','kandinsky-bento'); ?></p>
+<!-- /wp:paragraph --><cite><?php _e('Erich Maria Remarque','kandinsky-bento'); ?></cite></blockquote>
 <!-- /wp:quote --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column -->
@@ -391,7 +387,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1"},"spacing":{"margin":{"top":"var:preset|spacing|10"}},"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text","fontSize":"small"} -->
-<p class="has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:500;line-height:1">10 types of brushes for oil painting</p>
+<p class="has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:500;line-height:1"><?php _e('10 types of brushes for oil painting ','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}},"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1"}},"textColor":"text-light","fontSize":"small"} -->
@@ -417,7 +413,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text"} -->
-<p class="has-text-color has-link-color">Oil painting: inside the canvas</p>
+<p class="has-text-color has-link-color"><?php _e('Oil painting: inside the canvas','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div></div>
@@ -431,7 +427,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text"} -->
-<p class="has-text-color has-link-color">Love and color: artist inspiration</p>
+<p class="has-text-color has-link-color"><?php _e('Love and color: artist inspiration','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div></div>
@@ -445,7 +441,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text"} -->
-<p class="has-text-color has-link-color">Abstract artists of the 20th century</p>
+<p class="has-text-color has-link-color"><?php _e('Abstract artists of the 20th century','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div></div>
@@ -459,7 +455,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text"}}}},"textColor":"text"} -->
-<p class="has-text-color has-link-color">Incredible colors of abstractions</p>
+<p class="has-text-color has-link-color"><?php _e('Incredible colors of abstractions','kandinsky-bento'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div></div>
@@ -469,7 +465,7 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","theme":"kandinsky","area":"footer"} /--></div>
+<!-- wp:template-part {"slug":"footer","theme":"kandinsky-bento","area":"footer"} /--></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
