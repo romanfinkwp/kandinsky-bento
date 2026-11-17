@@ -1,0 +1,34 @@
+/*
+Theme Name: Kandinsky Bento
+Theme URI: https://wordpress.org/themes/kandinsky-bento/
+Author: Roman Fink
+Author URI: https://profiles.wordpress.org/romanfink/
+Description: Kandinsky Bento is the Block Theme designed to help you create a personal website that looks like 'bento.me' using WordPress. Create your personal single page website by clicks!
+Requires at least: 6.5
+Tested up to: 7.1
+Requires PHP: 7.0
+Version: 1.0.7
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: kandinsky-bento
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, block-styles, style-variations, portfolio
+*/
+
+.bento-main > .wp-block-column:last-child {
+    width: 100%;
+}
+
+@media screen and (max-width: 1260px) {
+    .bento-responsive {
+        flex-direction: column;
+    }
+    
+    .bento-main {
+        flex-direction: column;
+        max-width: 380px !important;
+    }
+
+    .bento-image {
+        width: 120px;
+    }
+}

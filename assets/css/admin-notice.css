@@ -1,0 +1,7 @@
+#kandinskybento-notice {
+    display: flex;
+    padding: 12px;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}

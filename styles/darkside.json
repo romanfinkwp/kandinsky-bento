@@ -1,0 +1,36 @@
+{
+    "title": "Darkside",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"color": "#111",
+					"name": "Background",
+					"slug": "background"
+				},
+				{
+					"color": "#222",
+					"name": "Cards Background",
+					"slug": "cards-background"
+				},
+				{
+					"color": "#333",
+					"name": "Borders",
+					"slug": "borders"
+				},
+				{
+					"color": "#fff",
+					"name": "Text",
+					"slug": "text"
+				},
+                {
+					"color": "#999",
+					"name": "Text Light",
+					"slug": "text-light"
+				}
+			]
+		}
+    }
+}
